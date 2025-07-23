@@ -1,7 +1,19 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Cloud, BarChart3, TrendingDown, Users, Shield, Zap } from "lucide-react"
-import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  Cloud,
+  BarChart3,
+  TrendingDown,
+  Users,
+  Shield,
+  Zap,
+} from "lucide-react";
+import Link from "next/link";
 
 export default function LandingPage() {
   return (
@@ -12,13 +24,17 @@ export default function LandingPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
               <Cloud className="h-8 w-8 text-blue-600" />
-              <h1 className="text-xl font-semibold text-gray-900">Cloud Carbon Footprint</h1>
+              <h1 className="text-xl font-semibold text-gray-900">
+                Cloud Carbon Footprint
+              </h1>
             </div>
             <div className="flex items-center space-x-4">
               <Link href="/dashboard">
                 <Button variant="outline">View Demo</Button>
               </Link>
-              <Button className="bg-blue-600 hover:bg-blue-700">Get Started</Button>
+              <Button className="bg-blue-600 hover:bg-blue-700">
+                Get Started
+              </Button>
             </div>
           </div>
         </div>
@@ -31,11 +47,14 @@ export default function LandingPage() {
             <Cloud className="h-20 w-20 text-blue-600 mx-auto mb-6" />
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
               Measure & Reduce Your
-              <span className="text-blue-600 block">Cloud Carbon Footprint</span>
+              <span className="text-blue-600 block">
+                Cloud Carbon Footprint
+              </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Track, analyze, and optimize your cloud infrastructure's environmental impact across AWS, Azure, and
-              Google Cloud. Get actionable insights to reduce both emissions and costs.
+              Track, analyze, and optimize your cloud infrastructure's
+              environmental impact across AWS, Azure, and Google Cloud. Get
+              actionable insights to reduce both emissions and costs.
             </p>
             <div className="flex justify-center space-x-4">
               <Link href="/dashboard">
@@ -61,7 +80,9 @@ export default function LandingPage() {
               <div className="text-gray-600">Average Emission Reduction</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-purple-600 mb-2">$2.8K</div>
+              <div className="text-4xl font-bold text-purple-600 mb-2">
+                $2.8K
+              </div>
               <div className="text-gray-600">Monthly Cost Savings</div>
             </div>
           </div>
@@ -72,9 +93,12 @@ export default function LandingPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Comprehensive Cloud Sustainability Platform</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Comprehensive Cloud Sustainability Platform
+            </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Everything you need to understand and optimize your cloud environmental impact
+              Everything you need to understand and optimize your cloud
+              environmental impact
             </p>
           </div>
 
@@ -84,7 +108,8 @@ export default function LandingPage() {
                 <BarChart3 className="h-10 w-10 text-blue-600 mb-4" />
                 <CardTitle>Real-time Monitoring</CardTitle>
                 <CardDescription>
-                  Track your carbon emissions and energy consumption across all cloud providers in real-time
+                  Track your carbon emissions and energy consumption across all
+                  cloud providers in real-time
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -94,7 +119,8 @@ export default function LandingPage() {
                 <TrendingDown className="h-10 w-10 text-green-600 mb-4" />
                 <CardTitle>Smart Recommendations</CardTitle>
                 <CardDescription>
-                  Get AI-powered suggestions to reduce emissions and costs through infrastructure optimization
+                  Get AI-powered suggestions to reduce emissions and costs
+                  through infrastructure optimization
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -104,7 +130,8 @@ export default function LandingPage() {
                 <Users className="h-10 w-10 text-purple-600 mb-4" />
                 <CardTitle>Team Collaboration</CardTitle>
                 <CardDescription>
-                  Share insights and coordinate sustainability efforts across your development and ops teams
+                  Share insights and coordinate sustainability efforts across
+                  your development and ops teams
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -114,7 +141,8 @@ export default function LandingPage() {
                 <Shield className="h-10 w-10 text-red-600 mb-4" />
                 <CardTitle>Compliance Ready</CardTitle>
                 <CardDescription>
-                  Generate reports for sustainability compliance and ESG requirements with detailed metrics
+                  Generate reports for sustainability compliance and ESG
+                  requirements with detailed metrics
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -124,7 +152,8 @@ export default function LandingPage() {
                 <Zap className="h-10 w-10 text-yellow-600 mb-4" />
                 <CardTitle>Multi-Cloud Support</CardTitle>
                 <CardDescription>
-                  Unified dashboard for AWS, Azure, Google Cloud, and other major cloud providers
+                  Unified dashboard for AWS, Azure, Google Cloud, and other
+                  major cloud providers
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -134,7 +163,8 @@ export default function LandingPage() {
                 <Cloud className="h-10 w-10 text-indigo-600 mb-4" />
                 <CardTitle>Easy Integration</CardTitle>
                 <CardDescription>
-                  Quick setup with existing cloud accounts and infrastructure monitoring tools
+                  Quick setup with existing cloud accounts and infrastructure
+                  monitoring tools
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -145,9 +175,12 @@ export default function LandingPage() {
       {/* CTA Section */}
       <section className="py-20 bg-blue-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white mb-4">Ready to Reduce Your Cloud Carbon Footprint?</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Ready to Reduce Your Cloud Carbon Footprint?
+          </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join organizations worldwide in making cloud computing more sustainable
+            Join organizations worldwide in making cloud computing more
+            sustainable
           </p>
           <div className="flex justify-center space-x-4">
             <Link href="/dashboard">
@@ -176,7 +209,8 @@ export default function LandingPage() {
                 <span className="font-semibold">Cloud Carbon Footprint</span>
               </div>
               <p className="text-gray-400">
-                Making cloud computing more sustainable through measurement and optimization.
+                Making cloud computing more sustainable through measurement and
+                optimization.
               </p>
             </div>
             <div>
@@ -208,10 +242,17 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Cloud Carbon Footprint. All rights reserved.</p>
+            <div>
+              &copy;{" "}
+              {new Date().getFullYear() === 2025
+                ? 2025
+                : new Date().getFullYear()}{" "}
+              &mdash; Made with <span style={{ color: "#4CAF50" }}>♥</span> by{" "}
+              <strong>Team xAI</strong>
+            </div>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
