@@ -59,4 +59,4 @@ This project is licensed under the MIT License.
 
 ---
 
-&copy; 2025 — Made with ♥ by
+&copy; 2025 — Made with ♥ by Team xAI
